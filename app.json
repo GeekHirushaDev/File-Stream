@@ -1,5 +1,5 @@
 {
-    "name": "TechifyBots",
+    "name": "LexFuryBots",
     "description": "A Pyrogram Telegram bot to Stream Telegram files to web.",
     "keywords": [
         "telegram",
@@ -39,10 +39,12 @@
             "value": "7757653690:AAGgdaGM3ROJIWQvQ_RjmtrfIZWuYLatwmA"
         },
         "BIN_CHANNEL": {
-            "description": "The BIN Channel ID. Read the readme for more info about this var"
+            "description": "The BIN Channel ID. Read the readme for more info about this var",
+            "value": "2418545311"
         },
         "NEW_USER_LOG": {
-            "description": "The NEW_USER_LOG Channel ID. Add this to get new users log"
+            "description": "The NEW_USER_LOG Channel ID. Add this to get new users log",
+            "value": "2328754648"
         },
         "DATABASE_URL": {
             "description": "MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. If you need help search for a tutorial on youtube",
@@ -62,11 +64,12 @@
         },
         "UPDATES_CHANNEL": {
             "description": "Put a Public Channel Username without @, so every user has to Join that channel to use the bot. Must add bot to channel as Admin to work properly. IF DONT WANT KEEP VALUE AS None",
-            "value": "None",
+            "value": "2484616323",
             "required": false
         },
         "OWNER_USERNAME": {
-            "description": "Enter your username without @ example biisal."
+            "description": "Enter your username without @ example biisal.",
+            "value": "GeekHirushaDev"
         },
         "SLEEP_THRESHOLD": {
             "description": "Floodwait Sleep timer. Read the readme for more info about this var",
