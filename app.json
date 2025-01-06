@@ -23,44 +23,50 @@
             "value": "True"
         },
         "APP_NAME": {
-            "description": "Copy-Paste the app name that you just typed above."
+            "description": "Copy-Paste the app name that you just typed above.",
+            "value": "LexFury"
         },
         "API_ID": {
-            "description": "Get this value from https://my.telegram.org"
+            "description": "Get this value from https://my.telegram.org",
+            "value": "2208116"
         },
         "API_HASH": {
-            "description": "Get this value from https://my.telegram.org"
+            "description": "Get this value from https://my.telegram.org",
+            "value": "e908365e42dcd3051c24d412102f356e"
         },
         "BOT_TOKEN": {
-            "description": "Get this value from @BotFather"
+            "description": "Get this value from @BotFather",
+            "value": "7757653690:AAGgdaGM3ROJIWQvQ_RjmtrfIZWuYLatwmA"
         },
         "BIN_CHANNEL": {
             "description": "The BIN Channel ID. Read the readme for more info about this var"
         },
         "NEW_USER_LOG": {
-            "description": "The NEW_USER_LOG Channel ID.Add this to get new users log"
+            "description": "The NEW_USER_LOG Channel ID. Add this to get new users log"
         },
         "DATABASE_URL": {
-            "description": "MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. If you need help search for a tutorial on youtbe"
+            "description": "MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. If you need help search for a tutorial on youtube",
+            "value": "mongodb+srv://LexFury:LexFury@123@cluster0.rnk2d.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
         },
         "OWNER_ID": {
-            "description": "Your Telegram User ID  like 1234509"
+            "description": "Your Telegram User ID like 1234509",
+            "value": "1339693473"
         },
         "BANNED_CHANNELS": {
-            "description": "Put IDs of Banned Channels where bot will not work(bot will leave that channel). You can add multiple IDs & separate with Space.",
+            "description": "Put IDs of Banned Channels where bot will not work (bot will leave that channel). You can add multiple IDs & separate with Space.",
             "required": false
         },
         "BAN_CHNL": {
-            "description": "almost same as BANNED_CHANNELS but if u add channel id here then the bot will stay that channel but it will not gen straming link for that channel.",
+            "description": "Almost same as BANNED_CHANNELS but if you add channel ID here, the bot will stay in that channel but it will not generate streaming link for that channel.",
             "required": false
         },
         "UPDATES_CHANNEL": {
-            "description": "Put a Public Channel Username  without @, so every user have to Join that channel to use the bot. Must add bot to channel as Admin to work properly.IF DONT WANT KEEP VALUE AS None",
+            "description": "Put a Public Channel Username without @, so every user has to Join that channel to use the bot. Must add bot to channel as Admin to work properly. IF DONT WANT KEEP VALUE AS None",
             "value": "None",
             "required": false
         },
         "OWNER_USERNAME": {
-            "description": "Enter your username without @  example  biisal."
+            "description": "Enter your username without @ example biisal."
         },
         "SLEEP_THRESHOLD": {
             "description": "Floodwait Sleep timer. Read the readme for more info about this var",
@@ -86,11 +92,11 @@
             "required": false
         },
         "BIND_ADRESS": {
-            "description": "Read the readme for more info about this var  Leave Empty  For heroku",
+            "description": "Read the readme for more info about this var. Leave Empty For Heroku",
             "required": false
         },
         "FQDN": {
-            "description": "Read the readme for more info about this var  **Leave Empty for heroku**",
+            "description": "Read the readme for more info about this var. **Leave Empty for Heroku**",
             "required": false
         },
         "name": {
@@ -100,13 +106,14 @@
         },
         "BAN_ALERT": {
             "description": "[Optional] Add the text you wish to display when attempting to get links while banned."
-            
         }
     },
     "addons": [],
-    "buildpacks": [{
-        "url": "heroku/python"
-    }],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
     "formation": {
         "web": {
             "quantity": 1,
